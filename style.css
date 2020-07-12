@@ -1,0 +1,230 @@
+body{
+    font-family:open sans;
+    font-weight: 400;
+}
+
+.container{margin:50px;}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav{padding-left: 30px;}
+
+.header-nav:link{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.header-nav:hover{color: hsl(240, 75%, 98%);}
+header{ margin-top: 100px;}
+
+.illustration1,.illustration2{
+    width:500px;
+    height:400px;
+    margin:10px 0;
+}
+
+h1,h2,p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1,h2{color:hsl(243, 87%, 12%);}
+p{color:hsl(238, 22%, 44%);}
+
+.call-to-action{
+    text-align:center ;
+    margin-top:30px;
+}
+
+.input-box{
+    width:400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: thin;
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.1);
+}
+
+.get-started{
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    width: 400px;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.1);
+}
+
+.get-started:hover{
+    background-color: hsl(238, 22%, 44%);
+}
+
+main{ 
+    background-color:  hsl(240, 75%, 98%);
+    padding: 50px 0;
+}
+
+.main-container{
+    background-image: url(./images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    margin-top:100px;
+}
+
+.main-paragraph{text-align: left;}
+
+.fylo-link{
+    color: hsl(170, 45%, 43%);
+}
+
+.testimonial{
+    width:350px;
+    height:180px;
+    color:hsl(0, 0%, 0%);
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.1);
+    margin:50px auto;
+    background-color: hsl(0, 0%, 100%);
+}
+
+h6{
+    margin:0px;
+    font-weight: 400;   
+}
+
+.avatar{
+    display: flex;
+    margin-top: 15px;
+}
+
+.avatar-testimonial{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.testimonial-paragraph{
+    text-align: left;
+    margin-top: 0;
+    margin-left: 15px;
+    color: hsl(0, 0%, 0%);
+    font-size: 10px;
+}
+
+article{
+    background-color: hsl(238, 22%, 44%);
+    padding-top:100px;
+    color: hsl(0, 0%, 100%);
+    padding:30px;
+}
+
+.article-header{
+    text-align: center;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.article-paragraph{
+    color: hsl(0, 0%, 100%);
+}
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: hsl(0, 0%, 100%);
+    padding: 50px;
+    text-align: left;
+}
+
+.icon{
+    margin-top:30px;
+}
+.icon-phone{
+    margin-bottom: 10px;
+}
+
+span{
+    margin-left: 15px;
+}
+
+.contact-details{
+    margin-top: 50px;
+}
+
+.details{
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.details:hover{
+    color: hsl(0, 0%, 75%);
+}
+
+@media (min-width:1440px){
+
+    .container{margin:50px 200px;}
+
+    header{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .header-body{
+        margin-top: 100px;
+        width: 500px;
+    }
+
+    h1,h2,p{
+        text-align:left;
+        margin-top:20px;
+    }
+
+    .call-to-action{
+        text-align:left;
+        margin-top:30px;
+    }
+
+    .main-body{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .main-container{
+        background-image: url(./images/bg-curve-desktop.svg);
+        background-repeat: no-repeat;
+        margin-top:100px;
+        background-color:hsl(240, 75%, 98%);
+    }
+
+    .productive{
+        width: 500px;
+    }
+
+    .testimonial{
+        margin:50px 0; 
+    }
+
+    .article-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .article-header{
+        text-align: left;
+    }
+
+    .article-head{
+        width: 500px;
+    }
+    
+    .footer-body{
+        display: flex;
+        justify-content: space-between;
+    }
+}
